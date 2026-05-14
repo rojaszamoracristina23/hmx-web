@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#f4f7fb;
+  color:#1d1d1d;
+  line-height:1.8;
+}
+
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(6,20,40,0.95);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  z-index:1000;
+}
+
+.logo{
+  color:white;
+  font-size:24px;
+  font-weight:700;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:25px;
+  font-weight:500;
+}
+
+nav a:hover{
+  color:#00a8ff;
+}
+
+.hero{
+  min-height:100vh;
+  background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  padding:40px;
+}
+
+.hero-content{
+  margin-top: 100px;
+}
+
+.hero-content h1{
+  font-size:58px;
+  margin-bottom:40px;
+  margin-bottom:5px;
+}
+
+.hero-content h2{
+  font-size:30px;
+  margin-bottom:20px;
+  color:#ffffff;
+  font-weight:600;
+}
+
+.hero-content p{
+  max-width:900px;
+  margin:auto;
+  font-size:20px;
+  color:#eaf3ff;
+  font-weight:400;
+
+}
+
+.hero-content h1,
+.hero-content h2,
+.hero-content p{
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.65);
+}
+
+.btn-primary,
+.btn-secondary{
+  display:inline-block;
+  margin:20px 10px 0;
+  padding:15px 30px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn-primary{
+  background:#00a8ff;
+  color:white;
+}
+
+.btn-secondary{
+  border:2px solid white;
+  color:white;
+}
+
+section{
+  padding:120px 80px;
+}
+
+section h2{
+  font-size:42px;
+  margin-bottom:35px;
+  color:#0a1f3c;
+  text-align:center;
+}
+
+section h3{
+  margin-top:35px;
+  color:#0a1f3c;
+  font-size:28px;
+}
+
+section p, li{
+  font-size:18px;
+  color:#444;
+}
+
+ul{
+  margin-top:15px;
+  margin-left:25px;
+}
+
+#quienes, #clientes, #contacto{
+  background:white;
+}
+
+#pensamiento, #servicios{
+  background:#eef4fa;
+}
+
+#experiencia{
+  background:#071a33;
+  color:white;
+}
+
+#experiencia h2,
+#experiencia h3,
+#experiencia p{
+  color:white;
+}
+
+#servicios ul{
+  background:white;
+  padding:25px 35px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+  margin-bottom:30px;
+}
+
+#contacto{
+  text-align:center;
+}
+
+@media(max-width:900px){
+  header{
+    flex-direction:column;
+    padding:20px;
+  }
+
+  nav{
+    margin-top:15px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  nav a{
+    margin:8px;
+  }
+
+  .hero-content h1{
+    font: size 30px;
+  margin-bottom:5px;
+  }
+
+  .hero-content h2{
+    font-size:22px;
+  }
+
+  section{
+    padding:90px 25px;
+  }
+}
+
+#quienes{
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("imagenes/foto4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#quienes h2,
+#quienes p{
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+#pensamiento{
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("imagenes/foto5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#experiencia{
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("imagenes/foto6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#clientes{
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("imagenes/foto7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#clientes h2,
+#clientes p{
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+#pensamiento h2,
+#pensamiento h3,
+#pensamiento p{
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+#servicios{
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("imagenes/foto9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#servicios h2,
+#servicios h3{
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.imagen-clientes{
+  display: block;
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto 0;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+  .logo-principal{
+  width: 250px;
+  max-width: 80%;
+  display: block;
+  margin: 5px auto 15px;
+  }
+
+  .contacto-info{
+  text-align:center;
+  margin-top:30px;
+}
+
+.contacto-info p{
+  font-size:20px;
+  color:#000000;
+  margin:8px 0;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
