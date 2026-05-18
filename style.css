@@ -157,8 +157,11 @@ ul{
 }
 
 #servicios ul{
-  padding-left:25px;
-  margin-bottom:25px;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding-left: 25px;
+  margin-bottom: 25px;
 }
 
 #contacto{
