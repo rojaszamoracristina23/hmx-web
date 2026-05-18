@@ -300,3 +300,12 @@ ul{
   margin:8px 0;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
+
+.contacto-info strong{
+  font-size:22px;
+}
+
+.contacto-info p{
+  max-width:800px;
+  margin:8px auto;
+}
