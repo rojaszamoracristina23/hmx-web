@@ -301,3 +301,16 @@ ul{
   max-width:800px;
   margin:8px auto;
 }
+#servicios ul{
+  background: transparent !important;
+  padding-left: 25px !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin-bottom: 30px !important;
+}
+
+#servicios li{
+  color: white !important;
+  background: transparent !important;
+}
