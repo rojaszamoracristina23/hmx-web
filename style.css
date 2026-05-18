@@ -157,11 +157,16 @@ ul{
 }
 
 #servicios ul{
-  background: transparent !important;
+ background: transparent !important;
   box-shadow: none !important;
+  border: none !important;
   border-radius: 0 !important;
-  padding-left: 25px;
-  margin-bottom: 25px;
+  padding: 0 0 0 25px !important;
+  margin-bottom: 25px !important;
+}
+
+#servicios li{
+  background: transparent !important;
 }
 
 #contacto{
